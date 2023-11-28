@@ -1,0 +1,113 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+body {
+    background-image: url('back4.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  
+  header {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  .about-me  p{
+    text-align: center;
+  }
+  .experience  p{
+    text-align: center;
+  }
+  .skills  ul{
+    text-align: center;
+  }
+  .skills ul {
+    list-style-type: none;
+    padding: 0;
+    margin:0;
+  }
+  .skills h2 {
+    margin-top: 50px;
+    text-align: center;
+  }  
+  .experience h2 {
+    margin-top: 50px;
+    text-align: center
+  }
+  li {
+    margin-bottom: 5px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .profile-picture {
+    text-align: center;
+  }
+  .image-swipe {
+    margin: 20px 0;
+    overflow: hidden;
+  }
+  
+  .swipe-controls {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .swipe-button {
+    padding: 10px 20px;
+    background-color: #ccc;
+    cursor: pointer;
+  }
+  
+  .swipe-container {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .image-wrapper {
+    display: flex;
+    width: 1000%; /* Adjust width to accommodate 10 images */
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .image-wrapper img {
+    display: block;
+    width: 10%; /* Adjust width to fit within 10 images */
+    height: auto;
+  }
+  
+  
+
+  
+#profileImage{
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+
+  
